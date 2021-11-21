@@ -6,7 +6,7 @@
   .c-bg {
     width: 20px;
     height: 100%;
-    background-color: #59b256;
+    background-color: rgb(93, 0, 146);
     position: absolute;
   }
 
@@ -48,4 +48,24 @@
 
   .c-desc {
     font-weight: 200;
+  }
+
+  @media screen and (max-width: 480px) {
+    .c-wrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+  
+    .c-title {
+      font-size: 30px;
+    }
+  
+    .c-info-item {
+      margin: 20px 0px;
+      width: 100%;
+    }
+  
+    .c-desc {
+      display: none;
+    }
   }
