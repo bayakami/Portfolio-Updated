@@ -23,7 +23,7 @@ export const projects = [
     {
       id: 4,
       img: "https://github.com/bayakami/Portfolio-Updated/blob/main/src/img/weather-mac.jpeg?raw=true",
-      link: "https://github.com/bayakami/weather-app",
+      link: "https://bayakami-weather-app.herokuapp.com/",
       title: " Weather Forecast App",
       desc:"It uses the OpenWeather API to retrieve forecast information. It shows current weather for a fixed location.",
     },
