@@ -6,11 +6,9 @@ const ProjectList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's Lama</h1>
+        <h1 className="pl-title">Some of my latest projects</h1>
         <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          I worked on these while studying with <a href="https://thedeveloperacademy.com/" target="_blank" rel="noreferrer">The Developer Academy</a>
         </p>
       </div>
       <div className="pl-list">

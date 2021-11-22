@@ -1,7 +1,9 @@
 import "./contact.css";
-import Phone from "../../img/phone.svg";
+import Phone from "../../img/github-brands.svg";
 import Email from "../../img/email.svg";
 import Address from "../../img/address.svg";
+
+/* icons from https://fontawesome.com/license */
 
 function Contact() {
   return (
@@ -9,19 +11,19 @@ function Contact() {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Contact me</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={Phone} alt="" className="c-icon" />
-              +447482077777
+              <a href="https://github.com/bayakami"><img src={Phone} alt="" className="c-icon" />
+              My GitHub</a>
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-              contact@me.com
+              barbora.lazova@gmail.com
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              245 King Street, Touterie Victoria 8520 Australia
+              Sheffield
             </div>
           </div>
         </div>
