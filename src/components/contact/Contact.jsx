@@ -29,7 +29,7 @@ function Contact() {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Have a question?</b>If you want to get in touch or just say hi, send me an email.
+            <b>Have a question? </b>If you want to get in touch or just say hi, send me an email.
           </p>
         </div>
       </div>
